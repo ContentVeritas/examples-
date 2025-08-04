@@ -1,0 +1,38 @@
+# Common environment files
+.env
+.env.*
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Node/JavaScript artifacts
+node_modules/
+dist/
+coverage/
+.nyc_output/
+
+# PHP artifacts
+vendor/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Output or build folders (if any)
+build/
+output/
+generated/
